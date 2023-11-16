@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.header__inner {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  padding: 15px 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #000;
+}
+.header__list {
+  display: flex;
+  list-style-type: none;
+  margin-left: 970px;
+}
+.header__item {
+  margin-left: 40px;
+}
+.up_cont {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.up_cont:hover {
+  color: red;
+}
+.sign {
+  margin-left: 14px;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__item a {
+  text-decoration: none;
+}
+.hero__title {
+  margin-top: 223px;
+  font-size: 55px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.hero__text {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 4px;
+}
+.inp__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.hero__inp {
+  width: 289.882px;
+  height: 31.373px;
+  flex-shrink: 0;
+  margin-top: 57px;
+  border-radius: 6px;
+  border: 1px solid #c4c4c4;
+  padding: 16px 24px;
+  margin-right: 10px;
+}
+.hero__btn {
+  margin-top: 57px;
+  border-radius: 6px;
+  background: #6cb6fa;
+  border: none;
+  padding: 25px;
+  width: 289.882px;
+  height: 65.373px;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.content__title {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 56px;
+}
+.content__wrapper_1 {
+  display: flex;
+  justify-content: center;
+}
+.content__list_1 {
+  background: #c4c4c4;
+  list-style-type: none;
+  display: flex;
+  width: 895px;
+  height: 350px;
+  margin-bottom: 97px;
+}
+.content__left {
+  width: 329px;
+  height: 65px;
+  flex-shrink: 0;
+}
+.content__left h3 {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.content__left p {
+  width: 292px;
+  height: 218px;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content__list1__item {
+  padding: 100px 50px;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content__wrapper_2 {
+  display: flex;
+  justify-content: center;
+}
+.content__list_2 {
+  background: #c4c4c4;
+  list-style-type: none;
+  display: flex;
+  width: 895px;
+  height: 350px;
+  margin-bottom: 97px;
+}
+.content__right {
+  width: 329px;
+  height: 65px;
+  flex-shrink: 0;
+  margin-left: 40px;
+}
+.content__right h3 {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.content__right p {
+  width: 292px;
+  height: 218px;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content__list2__item {
+  padding: 100px 50px;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content__wrapper_3 {
+  display: flex;
+  justify-content: center;
+}
+.content__list_3 {
+  background: #c4c4c4;
+  list-style-type: none;
+  display: flex;
+  width: 895px;
+  height: 350px;
+}
+.content__left h3 {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.content__left p {
+  width: 292px;
+  height: 218px;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content__list3__item {
+  padding: 100px 50px;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__title {
+  margin-top: 153px;
+  text-align: center;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 56px;
+}
+.footer__logo_1 {
+  text-align: center;
+  margin-bottom: 65px;
+}
+.footer__logo_2 {
+  text-align: center;
+  margin-bottom: 107px;
+}
+.footer_logo {
+  margin-right: 20px;
+}
